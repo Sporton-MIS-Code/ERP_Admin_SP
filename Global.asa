@@ -1,0 +1,13 @@
+<script language="vbscript" runat="server">
+sub application_onstart  
+   application("ADDSN")="Admin"
+   application("ADPASSWORD")="sportonmanag"
+end sub
+
+   Sub Session_OnStart()
+	
+	End Sub
+
+
+
+</script>
